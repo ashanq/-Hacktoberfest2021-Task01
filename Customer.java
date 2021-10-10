@@ -1,15 +1,15 @@
 public class Customer {
     private int id;
-    private String name
+    private String name;
     private String email;
     private String phone;
     private String userName;
     private String password;
     
-	public Customer(int id, String name, String email, string phone, String userName, String password) {
+	public Customer(int id, String name, String email, String phone, String userName, String password) {
 		this.id = id;
 		this.name = name;
-		this.email = email
+		this.email = email;
 		this.phone = phone;
 		this.userName = userName;
 		this.password = password;
@@ -20,7 +20,7 @@ public class Customer {
 	}
 
 	public void setId(int id) {
-		this.Id = id
+		this.id = id;
 	}
 
 	public String getname() {
@@ -35,12 +35,12 @@ public class Customer {
 		return email;
 	}
 
-	public void setemail(string email) {
+	public void setemail(String email) {
 		this.email = email;
 	}
 
 	public String getPhone() {
-		return phone
+		return phone;
 	}
 
 	public void setPhone(String phone) {
